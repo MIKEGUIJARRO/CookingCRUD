@@ -1,0 +1,17 @@
+.searchbar form {
+    display: flex;
+    align-items: center;
+  }
+  .searchbar input {
+    margin-left: 10px;
+  }
+
+  /* dark mode */
+.recipe-list .card.dark {
+  background: #555;
+}
+.recipe-list .card.dark p,
+.recipe-list .card.dark h3,
+.recipe-list .card.dark div {
+  color: #e4e4e4;
+}
