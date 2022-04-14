@@ -7,7 +7,7 @@ import './Searchbar.css';
 
 export const Searchbar = () => {
 
-    const [term, setTerm] = useState();
+    const [term, setTerm] = useState('');
     const history = useHistory();
 
     const handleSubmit = (e) => {
